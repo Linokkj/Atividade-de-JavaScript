@@ -33,3 +33,31 @@ if (idadePessoa >= 18) {
 } else {
     console.log("A pessoa é menor de idade.");
 }
+
+Questao 4
+
+let a = 2
+let b = "2"
+
+if (a==b){
+console.log("esse numero sao iguais pois o ==  ler a variavel")
+}
+else{console.log("esse numero nao e igual")}
+
+if (a===b){
+console.log("esse numero sao iguais")
+}else{console.log("nao e igual pois o === e pra saber se tudo e igual")}
+
+Quetao 5
+
+let a = 9;
+
+if (a >= 7) {
+    console.log("aprovado");
+} 
+else if (a >= 5 && a < 7) {
+    console.log("recuperacao");
+} 
+else {
+    console.log("reprovado"); // Assuming the final case is failing
+}
