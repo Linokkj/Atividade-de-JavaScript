@@ -61,3 +61,42 @@ else if (a >= 5 && a < 7) {
 else {
     console.log("reprovado"); // Assuming the final case is failing
 }
+
+Questao 06
+
+for (b=0;b<10;b++);{
+            console.log(b)
+}
+
+Questao 07
+
+let s = 0;
+        for (let b=1 ; b<=100 ; b++){
+            s += b;
+        }
+        console.log(s)
+
+Questao 08 
+
+for (b=0 ; b<=50 ; b=b+2){
+                console.log(b);
+        }
+        
+Questao 09     
+
+let a = Number(prompt("num1"));
+let b = Number(prompt("num2"));
+
+let soma = a+b;
+
+console.log(soma)
+
+Questao 10
+
+let a = Number(prompt("num1"));
+        
+if (a%2==0){
+   console.log("esse numero e par")
+}else
+   {console.log("esse numero e impar")};
+        
